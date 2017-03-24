@@ -13,5 +13,10 @@ function samecolor(){
 function diffcolor(){
   let color = #990000;
   let comp = ‎‎#DAA520
+  let divs = document.querySelectorAll("#diffcolor div");
+
+  for(i=0;i<divs.length;i++){
+    document.divs[i].style.backgroundColor = #990000;
+    
   }
 }
